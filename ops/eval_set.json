@@ -1,0 +1,92 @@
+[
+  {
+    "id": "eval-01",
+    "question": "How much does the Team plan cost per user per month?",
+    "reference_answer": "The Team plan costs $49 per user per month.",
+    "key_facts": ["$49", "per user", "Team"]
+  },
+  {
+    "id": "eval-02",
+    "question": "What discount do I get for paying annually instead of monthly?",
+    "reference_answer": "Customers who choose annual billing get a 15% discount on the Team and Enterprise plans.",
+    "key_facts": ["15%", "annual"]
+  },
+  {
+    "id": "eval-03",
+    "question": "Is Nimbus Cloud SOC 2 certified?",
+    "reference_answer": "Yes, Nimbus Cloud has completed a SOC 2 Type II audit.",
+    "key_facts": ["SOC 2 Type II"]
+  },
+  {
+    "id": "eval-04",
+    "question": "What encryption does Nimbus Cloud use for data at rest and in transit?",
+    "reference_answer": "Data at rest is encrypted with AES-256 and data in transit is encrypted with TLS 1.3.",
+    "key_facts": ["AES-256", "TLS 1.3"]
+  },
+  {
+    "id": "eval-05",
+    "question": "What is the response SLA for a severity-1 incident under the Premium support plan?",
+    "reference_answer": "Premium support (Enterprise plan) has a 1-hour response SLA for severity-1 incidents.",
+    "key_facts": ["1-hour", "severity-1"]
+  },
+  {
+    "id": "eval-06",
+    "question": "How many API requests per minute can a Team plan API key make?",
+    "reference_answer": "The Team plan allows 1,000 requests per minute per API key.",
+    "key_facts": ["1,000", "requests per minute"]
+  },
+  {
+    "id": "eval-07",
+    "question": "How long does Nimbus Cloud retain customer data after an account is canceled?",
+    "reference_answer": "Nimbus Cloud retains customer data for 30 days after cancellation before permanent deletion.",
+    "key_facts": ["30 days"]
+  },
+  {
+    "id": "eval-08",
+    "question": "What is Nimbus Cloud's uptime target for its core API?",
+    "reference_answer": "Nimbus Cloud targets 99.9% monthly uptime for the core API and control plane.",
+    "key_facts": ["99.9%"]
+  },
+  {
+    "id": "eval-09",
+    "question": "Within how many business days is a SEV1 postmortem published, and does Nimbus Cloud offer a HIPAA business associate agreement?",
+    "reference_answer": "SEV1 postmortems are published within 3 business days, and Nimbus Cloud offers a signed Business Associate Agreement (BAA) to Enterprise customers for HIPAA-eligible workloads.",
+    "key_facts": ["3 business days", "BAA", "HIPAA"]
+  },
+  {
+    "id": "eval-10",
+    "question": "What two AWS-style regions does Nimbus Cloud operate in?",
+    "reference_answer": "Nimbus Cloud operates in us-east-1 and eu-west-1.",
+    "key_facts": ["us-east-1", "eu-west-1"]
+  },
+  {
+    "id": "eval-11",
+    "question": "Do I need a credit card to start a free Starter-tier account?",
+    "reference_answer": "No, a credit card is not required to start a Starter-tier account, but it is required to start a Team-tier trial.",
+    "key_facts": ["no credit card", "Starter"]
+  },
+  {
+    "id": "eval-12",
+    "question": "What happens if a webhook endpoint fails to respond in time?",
+    "reference_answer": "If a webhook endpoint doesn't respond with a 2xx status within 5 seconds, delivery is retried up to 3 times with exponential backoff.",
+    "key_facts": ["5 seconds", "3 times", "exponential backoff"]
+  },
+  {
+    "id": "eval-13",
+    "question": "What four built-in RBAC roles does Nimbus Cloud support?",
+    "reference_answer": "Nimbus Cloud supports four built-in RBAC roles: Viewer, Editor, Admin, and Billing.",
+    "key_facts": ["Viewer", "Editor", "Admin", "Billing"]
+  },
+  {
+    "id": "eval-14",
+    "question": "What is Nimbus Vault used for and how often does it rotate secrets?",
+    "reference_answer": "Nimbus Vault is a secrets-management service, and it automatically rotates supported secret types every 90 days.",
+    "key_facts": ["Nimbus Vault", "90-day", "rotation"]
+  },
+  {
+    "id": "eval-15",
+    "question": "Hi there, what can you help me with?",
+    "reference_answer": "I can answer questions about Nimbus Cloud's products, pricing, security and compliance, onboarding and support, API, and incident response processes.",
+    "key_facts": ["Nimbus Cloud"]
+  }
+]

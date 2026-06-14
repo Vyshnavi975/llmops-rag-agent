@@ -1,0 +1,14 @@
+# Core LangChain / LangGraph
+langchain==1.4.0
+langchain-core==1.6.1
+langchain-text-splitters==1.1.2
+langchain-openai==1.6.0
+langgraph==1.2.11
+
+# Real LLM provider (used only when OPENAI_API_KEY is set; the project runs
+# fully offline in demo mode without it)
+openai==3.8.0
+
+# Tokenizer used for accurate token/cost accounting (falls back to a
+# word-count approximation automatically if this isn't installed)
+tiktoken==0.14.0
